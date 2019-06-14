@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import RestaurantList from './components/RestaurantList'
 
-const API = 'http://opentable.herokuapp.com/api/restaurants?city=';
+const API = 'https://opentable.herokuapp.com/api/restaurants?city=';
 const DEFAULT_QUERY = 'Toronto';
 
 class App extends Component {
